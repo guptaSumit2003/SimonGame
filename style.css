@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(41, 24, 96);
+    text-align: center;
+}
+
+h1{
+    color: rgb(223, 214, 201);
+    font-size: 5rem;
+    margin-bottom: 30px;
+    
+}
+
+.allFour{
+    height: 520px;
+    width: 520px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.toCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.oneBox{
+    border-radius: 70px;
+    border: 12px solid black;
+}
+
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+
+/*Basic designing for website completed*/
+
+/*Now CSS which is required for animations*/
+.user-press{
+    background-color: gray;
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.hidden{
+    visibility: collapse;
+}
+
+.game-over{
+    background-color: red;
+}
